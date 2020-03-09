@@ -14,8 +14,8 @@ import (
 	"path"
 	"strconv"
 
-	"github.com/influxdata/influxdb-client-go/internal/gzip"
 	lp "github.com/influxdata/line-protocol"
+	"github.com/samcm/influxdb-client-go/internal/gzip"
 )
 
 // Write writes metrics to a bucket, and org. The result n is the number of points written.
